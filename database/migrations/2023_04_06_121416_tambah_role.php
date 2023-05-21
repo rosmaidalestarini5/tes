@@ -14,8 +14,7 @@ class TambahRole extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-        $table->enum('role', ['RESTO','KURIR','KONSUMEN'])
-        ->default('KONSUMEN');
+        $table->enum('role', ['RESTO','KURIR','KONSUMEN'])->default('KONSUMEN');
         });
     }
     /**

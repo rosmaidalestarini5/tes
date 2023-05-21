@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+//Auth::routes();
 Route::get('resto/home', [App\Http\Controllers\resto\HomeController::class, 'index'])->middleware('can:isResto');
 Route::get('kurir/home', [App\Http\Controllers\kurir\HomeController::class, 'index'])->middleware('can:isKurir');
 Route::get('konsumen/home', [App\Http\Controllers\konsumen\HomeController::class, 'index'])->middleware('can:isKonsumen');
