@@ -22,7 +22,7 @@ style="display:inline">
 <label for="confirm_password" class="col-form-label">Konfirmasi Password</label>
 <input type="password" class="form-control" name="confirm_password"/>
 <br/>
-<button class="btn btn-primary" style="submit">SIMPAN</button>
+{button class="btn btn-primary" style="submit"}SIMPAN</button>
 <a href="{{ url('/resto/user') }}" class="btn">BATAL</a>
 </form>
 </div>

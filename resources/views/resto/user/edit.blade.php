@@ -20,7 +20,7 @@ style="display:inline">
 @endforeach
 </select>
 <br/>
-<button class="btn btn-primary" style="submit">SIMPAN</button>
+{button class="btn btn-primary" style="submit"}SIMPAN</button>
 <a href="{{ url('/resto/user') }}" class="btn">BATAL</a>
 </form>
 </div>
